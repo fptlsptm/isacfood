@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "795388836550",
+    "project_id": "isacfood-cfd56",
+    "storage_bucket": "isacfood-cfd56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795388836550:android:ce864e24352500c9d975c7",
+        "android_client_info": {
+          "package_name": "com.isacfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795388836550-lr11lbpodm4lnkirm0s6l5m5u22ug8dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH1WJnmdou1YPPYB7RX2N8OVnGiPPcNNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795388836550-lr11lbpodm4lnkirm0s6l5m5u22ug8dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
