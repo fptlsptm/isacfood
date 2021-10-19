@@ -44,7 +44,7 @@ export default function CusWebview(props){
     }
     const onLoadEnd = (e) =>{
         seTurls(e.nativeEvent.url);
-        //webViews.current.injectJavaScript('set_token("'+app_token+'")'); 
+        webViews.current.injectJavaScript('set_token("'+app_token+'")'); 
     }
 
     const handleBackButton = () => {
@@ -77,9 +77,9 @@ export default function CusWebview(props){
     React.useEffect(()=>{
         BackHandler.addEventListener('hardwareBackPress', handleBackButton);
     },[]);
-    // React.useEffect(async ()=>{
-    //     await setttingToken();
-    // },[]);
+    React.useEffect(async ()=>{
+        await setttingToken();
+    },[]);
     
     return (
         <View style={styles.container}>
